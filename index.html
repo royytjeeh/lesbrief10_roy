@@ -8,15 +8,6 @@
       type="image/png" 
       href="images/overmij.jpg">
 	<TITLE>Roy de Jonge</TITLE>
-
-  <script type="text/javascript">
-
-var slideimages = new Array() // create new array to preload images
-slideimages[0] = new Image() // create new instance of image object
-slideimages[0].src = "images/setup.jpg" // set image src property to image path, preloading image in the process
-slideimages[1] = new Image()
-slideimages[1].src = "images/overmij.jpg"
-</script>
 </HEAD>
 	<BODY>
        <div id="fb-root"></div>
@@ -62,43 +53,12 @@ slideimages[1].src = "images/overmij.jpg"
     <div id="page2">
         <a id="Gear" class="smooth"></a>
         <h2> Setup </h2>
-        <img src="images/setup.jpg" alt="Foto van setup" title="Dit is mijn setup">
+        <img src="images/setup.jpg" alt="Foto van setup" title="Dit is mijn setup" rel="Setup_Roy_de_jonge">
     </div>                        
     <div id="project">
       <a id="projecten" class="smooth"></a>
       <h3>Projecten</h3>
       <p> <b>Hieronder kun je wat werk van mij vinden. meer projecten zien? klik <a href="projecten.html"> hier</a></b></p>
-      <a href="javascript:slidelink()"><img src="firstcar.gif" id="slide" width=500 height=300 /></a>
-<script type="text/javascript">
-
-//variable that will increment through the images
-var step = 0
-var whichimage = 0
-
-function slideit(){
- //if browser does not support the image object, exit.
- if (!document.images)
-  return
- document.getElementById('slide').src = slideimages[step].src
- whichimage = step
- if (step<2)
-  step++
- else
-  step=0
- //call function "slideit()" every 2.5 seconds
- setTimeout("slideit()",2500)
-}
-
-function slidelink(){
- if (whichimage == 0)
-  window.location = "images/setup.jpg"
- else if (whichimage == 1)
-  window.location = "images/overmij.jpg"
-}
-
-slideit()
-
-</script>
     </div>
     <div id="page3">
         <a id="Social" class="smooth"></a>

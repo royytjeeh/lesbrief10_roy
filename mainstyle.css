@@ -68,7 +68,7 @@ text-decoration: none;
 }
 
 #page2{
-	height: 650px;
+	height: 400%;
 	background-color: #87101C;
 }
 #page2 h2{
@@ -76,24 +76,9 @@ text-decoration: none;
 	padding-top: 10px;
 }
 #page2 img{
-	width: 700px;
-	height: 400px;
-	padding-left: 340px;
-}
-#setuptekst{
-	float: left;
-}
-#pc{
-	float: left;
-	margin-left: 150px;
-}
-#accesoires{
-	float: left;
-	margin-left: 100px;
-}
-#overigsetup{
-	float: left;
-	margin-left: 150px;
+	width: 50%;
+	padding-left: 28%;
+	padding-bottom: 2%;
 }
 #page3{
 	height: 550px;
