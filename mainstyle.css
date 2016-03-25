@@ -77,16 +77,16 @@ text-decoration: none;
 }
 #page2 img{
 	width: 50%;
-	padding-left: 28%;
+	padding-left: 26%;
 	padding-bottom: 2%;
 }
 #page3{
-	height: 550px;
+	height: 200%;
 	background-color: white;
 }
 #page3 h2{
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 0.5%;
 }
 #page3 p{
 	text-align: center;
@@ -99,22 +99,24 @@ text-decoration: none;
 	color: orange;
 }
 #page4{
-	height: 110px;
+	height: 150%;
 	background-color: #282B32;
 	color: white;
+	margin-bottom: -1.5%;
 }
 #page4 h2{
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 1%;
 }
 #page4 p{
 	text-align: center;
+	padding-bottom: 1%;
 }
 #project{
 	text-align: center;
 	color: white;
 	background-color: #282B32;
-	margin-top: -20px;
+	margin-top: -2%;
 	width: 100%;
 }
 #project a{
