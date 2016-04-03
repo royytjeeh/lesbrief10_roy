@@ -68,16 +68,23 @@ text-decoration: none;
 }
 
 #page2{
-	height: 400%;
+	height: 1000%;
 	background-color: #87101C;
 }
 #page2 h2{
 	text-align: center;
 	padding-top: 10px;
+	color: white;
 }
 #page2 img{
-	width: 50%;
-	padding-left: 26%;
+	width: 40%;
+	padding-left: 30%;
+	padding-bottom: 0.3%;
+}
+#page2 p{
+	width: 40%;
+	padding-left: 30%;
+	color: white;
 	padding-bottom: 2%;
 }
 #page3{
@@ -131,4 +138,16 @@ footer{
 	text-align: center;
 	background-color: black;
 	color: white;
+}
+footer p{
+	padding-bottom: 0.3%;
+	padding-top: 0.3%;
+	margin-bottom: -1%;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	color: orange;
 }
